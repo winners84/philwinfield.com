@@ -2,7 +2,7 @@
 html
   head
     title Phil Winfield | Graphic Designer
-    include includes/head
+    include head
   body
     #container
       header
@@ -12,7 +12,7 @@ html
               img(src='images/logo.png', width='75', height='75', alt='logo')
           block selected
             selected = '/current-page.html'
-          include includes/mixins
+          include mixins
 
           #works-list
             ul.works-column
@@ -60,10 +60,10 @@ html
               li
                 +project('/cct.html') Center for Computation &amp; Tech.
 
-        include includes/nav
+        include nav
 
 
       section#work-wrap
         block main
 
-    include includes/footer
+    include footer

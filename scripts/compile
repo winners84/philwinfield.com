@@ -1,4 +1,4 @@
 #!/bin/sh
 # Compile Jade files.
 
-exec jade *.jade
+exec jade jade/*.jade --out root
