@@ -1,4 +1,4 @@
 #!/bin/sh
-# Start a development server with automatic Jade compiling.
+# Start a development server.
 
 exec serve .
