@@ -2,12 +2,63 @@
 html
   head
     title Phil Winfield | Graphic Designer
-    includes includes/head
+    include includes/head
   body
     #container
       header
-        nav
-          block nav
+        section#header-sub
+          #logo-sub
+            a(href='index.html')
+              img(src='images/logo.png', width='75', height='75', alt='logo')
+          #works-list
+            ul.works-column
+              li
+                a.selected(href='killer-poboys.html')Killer Poboys
+              li
+                a(href='decode72.html') Decode72
+              li
+                a(href='kinobi.html') Kinobi
+              li
+                a(href='gdhit.html') GDHit
+              li
+                a(href='br-citystats.html') Baton Rouge City Stats
+            ul.works-column
+              li
+                a(href='social-fabrics.html') Social Fabrics
+              li
+                a(href='green-world.html') Green World
+              li
+                a(href='ccs.html') Center for Campus Sustainability
+              li
+                a(href='oilspill.html') Deep Negligence
+              li
+                a(href='lissitzky.html') El Lissitzky
+            ul.works-column
+              li
+                a(href='matter.html') Herbert Matter
+              li
+                a(href='bayer.html') Herbert Bayer
+              li
+                a(href='lsu-art.html') LSU School of Art
+              li
+                a(href='languages-matter.html') Languages Matter
+              li
+                a(href='coad.html') College Art &amp; Design
+            ul.works-column
+              li
+                a(href='linotype.html') Linotype
+              li
+                a(href='labouchere.html') Pierre Antoine Labouchere
+              li
+                a(href='br-transit-tax.html') Baton Rouge Transit Tax
+              li
+                a(href='gdh-series.html') Graphic Design History
+              li
+                a(href='cct.html') Center for Computation &amp; Tech.
+
+        include includes/nav
+          
 
       block main
+      
     include includes/footer
