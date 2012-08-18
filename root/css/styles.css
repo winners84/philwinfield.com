@@ -4,12 +4,11 @@ html, body {
 body {
 	border-top: thick solid black;
   min-width: 1000px;
+  font-family: 'futura-pt', helvetica, arial, sans-serif;
 }
 * {
   margin: 0;
   padding: 0;
-  font-family: 'futura-pt', helvetica, arial, sans-serif;
-  
 }
 a, a:active {
   color: #ccc;
@@ -24,6 +23,7 @@ a:hover {
 }
 header {
 	border-bottom: thick solid black;
+  background: white;
 	min-width: 1000px;
 	margin: 0 auto;
 	text-align: center;
@@ -81,17 +81,33 @@ ul li:hover {
   color: red;
 }
 #about {
-  width: 900px;
+  width: 800px;
   margin: 0 auto;
-  padding: 10px 0;
+  padding: 25px 0 35px;
   display: none;
   text-align: left;
+  overflow: hidden;
 }
 p {
-  font-family: 'rooney-web', 'futura-pt', sans-serif;
+  font-family: 'rooney-web', serif;
   font-weight:  400;
   font-size: 14px;
   line-height: 21px;
+}
+#about p {
+  float: left;
+  width: 675px;
+  margin-left: 25px;
+}
+.thumbs-profile {
+  width: 100px;
+  border-radius: 50px;
+  float: left;
+}
+.thumbs-profile img {
+  border-radius: 50px;
+  margin: 0;
+  padding: 0;
 }
 section#thumbnails-wrap {
   width: 1000px;
@@ -144,7 +160,8 @@ section#work-wrap {
 }
 section#work-wrap article {
   padding: 25px 0;
-  width: 700px;
+  width: 800px;
+  margin-left: 50px;
 }
 section#work-wrap article h1 {
   padding-bottom: 10px;
@@ -159,7 +176,7 @@ div.project img {
   margin: 0;
 }
 div.project h4 {
-  font-family: 'futura-pt', sans-serif;
+  font-family: 'rooney-web', serif;
   font-style: italic;
   font-weight: 400;
   color: #666;
@@ -177,4 +194,23 @@ footer{
 }
 a.selected {
   color: black;
+}
+.red {
+  color: red;
+}
+.opacity {
+  opacity: .5;
+}
+.borders {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; /* Firefox */
+  -webkit-box-sizing: border-box; /* Safari */
+  border: thin solid #ccc;
+  margin-top: 25px;
+  width: 800px;
+  height: 618px;
+}
+.border-top {
+  border-top: thin solid red;
+  padding-top: 25px;
 }
