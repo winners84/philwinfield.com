@@ -89,7 +89,7 @@ ul li:hover {
   overflow: hidden;
 }
 p {
-  font-family: 'rooney-web', serif;
+  font-family: 'rooney-web', helvetica, arial, sans-serif;
   font-weight:  400;
   font-size: 14px;
   line-height: 21px;
@@ -133,7 +133,6 @@ div.thumbs:hover h4 {
 div.thumbs img {
   padding: 0;
   margin: 0;
-  /*border: thin solid #ccc;*/
   border-bottom: none;
   opacity: 1;
   width: 200px;
@@ -166,6 +165,13 @@ section#work-wrap article {
 section#work-wrap article h1 {
   padding-bottom: 10px;
   color: red;
+}
+section#work-wrap article h2 {
+  padding-bottom: 10px;
+  color: #bbb;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: italic;
 }
 div.project {
   width: 800px;
