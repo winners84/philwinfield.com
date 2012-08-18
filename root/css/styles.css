@@ -13,6 +13,7 @@ body {
 a, a:active {
   color: #ccc;
   text-decoration: none;
+  border: none;
 }
 a:hover {
   color: red;
