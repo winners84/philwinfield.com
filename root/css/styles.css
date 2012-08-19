@@ -177,6 +177,9 @@ section#work-wrap article h2 {
   font-size: 14px;
   font-style: italic;
 }
+section#work-wrap article p {
+  padding-bottom: 10px;
+}
 div.project {
   width: 800px;
   margin: 0 auto 25px;
