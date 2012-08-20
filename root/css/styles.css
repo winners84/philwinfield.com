@@ -102,6 +102,10 @@ p {
   float: left;
   width: 675px;
   margin-left: 25px;
+  margin-bottom: 10px;
+}
+#about a {
+  margin-left: 125px;
 }
 .thumbs-profile {
   width: 100px;
