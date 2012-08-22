@@ -106,6 +106,7 @@ p {
 }
 #about a {
   margin-left: 125px;
+  color: red;
 }
 .thumbs-profile {
   width: 100px;
