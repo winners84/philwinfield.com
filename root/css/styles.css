@@ -229,6 +229,6 @@ a.selected {
   height: 618px;
 }
 .border-top {
-  border-top: thin solid red;
+  border-top: thin solid #efefef;
   padding-top: 25px;
 }
