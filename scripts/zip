@@ -1,5 +1,0 @@
-#!/bin/sh
-# Zip the site up for staticloud deployment.
-
-rm root.zip
-exec zip -r root.zip root
