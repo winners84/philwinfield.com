@@ -1,0 +1,70 @@
+!!!
+html
+  head
+    title Phil Winfield | Graphic Designer
+    include head
+  body
+    #container
+      header
+        section#header-sub
+          #logo-sub
+            a(href='index.html')
+              img(src='images/logo.png', width='75', height='75', alt='logo')
+          block selected
+            selected = '/current-page.html'
+          include mixins
+
+          #works-list
+            ul.works-column
+              li
+                +project('/killer-poboys.html') Killer Poboys
+              li
+                +project('/lsu-art.html') LSU School of Art
+              li
+                +project('/kinobi.html') Kinobi
+              li
+                +project('/cct.html') Center for Computation &amp; Tech.
+              li
+                +project('/gdhit.html') GDHit
+            ul.works-column
+              li
+                +project('/decode72.html') Decode72
+              li
+                +project('/ccs.html') Center for Campus Sustainability
+              li
+                +project('/br-citystats.html') Baton Rouge City Stats
+              li
+                +project('/green-world.html') Green World
+              li
+                +project('/labouchere.html') Pierre Antoine Labouchere
+
+            ul.works-column
+              li
+                +project('/coad.html') College Art &amp; Design
+              li
+                +project('/social-fabrics.html') Social Fabrics
+              li
+                +project('/lissitzky.html') El Lissitzky
+              li
+                +project('/matter.html') Herbert Matter
+              li
+                +project('/bayer.html') Herbert Bayer
+            ul.works-column
+              li
+                +project('/linotype.html') Linotype
+              li
+                +project('/oilspill.html') Deep Negligence
+              li
+                +project('/languages-matter.html') Languages Matter
+              li
+                +project('/br-transit-tax.html') Baton Rouge Transit Tax
+              li
+                +project('/gdh-series.html') Graphic Design History
+
+        include nav
+
+
+      section#work-wrap
+        block main
+
+    include footer
